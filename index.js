@@ -20,8 +20,8 @@ db.on("error",()=>console.log("Not Connected"))
 
 app.use("/studentRoute",studentRoute);
 
-
-app.listen(4000,()=>{
+const port = 4000
+app.listen(port ,()=>{
     console.log("Server is running in the port 4000");
 })
 
